@@ -1,24 +1,84 @@
-.container-home{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
 
-    .container-navegacao{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'Segoe UI', sans-serif;
+}
+
+.container-home {
+
+
+    .container-navegacao {
         display: flex;
         flex-direction: row;
-        background-color: aqua;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        height: 80px;
+    }
+
+    .icone-logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
         
-        h3{
-            padding-left: 50px;
+
+        .Cor-title{
+            color: #4a86e8;
         }
-        a{
+
+        .fas.fa-bolt{
+            font-size: 30px;
+            color: #4a86e8;
+        }
+        
+    }
+
+    h3 {
+        display: flex;
+        font-size: 1.8rem;
+        padding-left: 0;
+        margin: 0;
+        align-items: center;
+    }
+
+    .links-containers {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        padding: 10px 0;
+    }
+
+    a {
+       
+        text-decoration: none;
+        color: black;
+    }
+    .empresa-content {
+    
+        background-color: #003d7a;
+        color: #fff;
+
+        .title{
+            display: flex;
+            justify-content: center;
+            padding-top: 5rem ;
+            font-size:3rem ;
+        }
+
+        .textos-p{
             display: flex;
             justify-content: center;
             align-items: center;
-            text-decoration: none;
-              color: inherit;
-              padding-left: 100px;
+            text-align: center;
+            padding-left: 15rem;
+            padding-right: 15rem;
+            padding-top: 2rem;
+            font-size: 20px;
+            
         }
-    
     }
 }
