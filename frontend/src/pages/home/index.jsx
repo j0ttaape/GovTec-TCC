@@ -1,29 +1,28 @@
 import "./index.scss"
 
-export default function Inicio(){
+export default function Inicio() {
 
-    return(
+    return (
 
-        
+
         <section className="container-home">
-        
-            <div class="container-navegacao">
-                <nav>
-                    <a href="#" class="logo">
-                    <i class="fas fa-bolt"></i> Gov<span>Pulse</span>
-                    </a>
 
-                    <ul class="nav-links">
-                    <li><a href="#empresa">Nossa Equipe</a></li>
-                    <li><a href="#sobre">Sobre Nós</a></li>
-                    <li><a href="#servicos">Serviços</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                    </ul>
-                        <div class="mobile-menu">
-                            <i class="fas fa-bars"></i>
-                        </div>
-                </nav>
+            <div class="container-navegacao">
+               
+
+                    
+                        <h3 href="#" >GovTec</h3>
+                    
+
+                    <div class="nav-links">
+                        <a href="#empresa">Nossa Equipe</a>
+                        <a href="#sobre">Sobre Nós</a>
+                        <a href="#servicos">Serviços</a>
+                        <a href="#projetos">Projetos</a>
+                        <a href="#contato">Contato</a>
+                    </div>
+
+                
             </div>
 
 
@@ -31,7 +30,7 @@ export default function Inicio(){
                 <div class="empresa-content">
                     <h1>GovPulse: Inovação Digital para o Setor Público</h1>
                     <p>Somos uma equipe especializada no desenvolvimento de soluções digitais para o governo. Combinamos expertise técnica com compreensão das necessidades do serviço público para criar plataformas que transformam a relação entre cidadãos e governo.</p>
-                    
+
                     <div class="empresa-destaque">
                         <div class="destaque-item">
                             <i class="fas fa-cogs"></i>
@@ -50,8 +49,8 @@ export default function Inicio(){
                         </div>
                     </div>
                 </div>
-            </div>        
-            
+            </div>
+
         </section>
     )
 }
