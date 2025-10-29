@@ -7,9 +7,8 @@
     font-family: 'Montserrat', 'Segoe UI', sans-serif;
 }
 
+
 .container-home {
-
-
     .container-navegacao {
         display: flex;
         flex-direction: row;
@@ -24,17 +23,15 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        
 
-        .Cor-title{
-            color: #4a86e8;
+        .Cor-title {
+            color: #0052a5;
         }
 
-        .fas.fa-bolt{
+        .fas.fa-bolt {
             font-size: 30px;
-            color: #4a86e8;
+            color: #0052a5;
         }
-        
     }
 
     h3 {
@@ -50,26 +47,56 @@
         flex-direction: row;
         gap: 50px;
         padding: 10px 0;
+
+        a {
+            position: relative;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 18px;
+            padding: 5px 0;
+            transition: 0.3s ease;
+
+            &:hover {
+                color: #0052a5;
+                border-bottom-color: #0052a5;
+                transition: all 0.3s ease;
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 0;
+                height: 2px;
+                background-color: #0052a5;
+                transition: 0.8s ease;
+            }
+
+            &:hover::after {
+                width: 100%;
+            }
+        }
     }
 
     a {
-       
         text-decoration: none;
         color: black;
     }
+
     .empresa-content {
-    
         background-color: #003d7a;
+        height: 60rem;
         color: #fff;
 
-        .title{
+        .title {
             display: flex;
             justify-content: center;
-            padding-top: 5rem ;
-            font-size:3rem ;
+            padding-top: 5rem;
+            font-size: 3rem;
         }
 
-        .textos-p{
+        .textos-p {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -78,7 +105,171 @@
             padding-right: 15rem;
             padding-top: 2rem;
             font-size: 20px;
-            
+        }
+
+        .empresa-destaque {
+            display: flex;
+            flex-direction: row;
+            margin-left: 10rem;
+            margin-right: 10rem;
+            gap: 2rem;
+
+            .destaque-item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 25rem;
+                padding: 3rem;
+                gap: 3rem;
+                margin-top: 4rem;
+                background: rgba(255, 255, 255, 0.103);
+                border-radius: 8px;
+                backdrop-filter: blur(10px);
+
+                p {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    line-height: 2rem;
+                }
+
+                h3 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    font-size: 1.5rem;
+                    align-items: center;
+                }
+
+                .fas.fa-shield-alt {
+                    color: #4a86e8;
+                    font-size: 3rem;
+                }
+
+                .fas.fa-cogs {
+                    color: #4a86e8;
+                    font-size: 3rem;
+                }
+
+                .fas.fa-users {
+                    color: #4a86e8;
+                    font-size: 3rem;
+                }
+            }
+        }
+    }
+
+    .container-equipe {
+        display: flex;
+        flex-direction: row;
+        margin-top: 5rem;
+        align-items: flex-start; // Alinha os itens no topo
+
+        .container-equipe-conteudo {
+            height: 60rem;
+            flex: 1; // Ocupa o espaço disponível
+            display: flex;
+            flex-direction: column;
+
+            h1{
+                color: #1a365d;
+            }
+
+            h4{
+                color: #1a365d;
+            }
+            .title-equipe {
+                text-align: center;
+
+                h1 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                }
+
+                p {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    color: #3f4041;
+                }
+            }
+
+            .texto-sobre {
+                display: flex;
+                flex-direction: column;
+                margin-left: 7rem;
+                margin-top: 4rem;
+                margin-right: 5rem; // Espaço entre o texto e a imagem
+
+                p {
+                    line-height: 2rem;
+                }
+
+                h4 {
+                    margin-top: 2rem;
+                    margin-bottom: 1rem;
+                }
+
+                ul {
+                    margin-left: 2rem;
+                    margin-bottom: 2rem;
+
+                    li {
+                        line-height: 2rem;
+                    }
+                }
+
+                a {
+                    background-color: #0052a5;
+                    color: white;
+                    padding: 12px 30px;
+                    border-radius: 5px;
+                    text-decoration: none;
+                    font-weight: bold;
+                    align-self: flex-start;
+                    transition: background-color 0.3s ease;
+
+                    &:hover {
+                        background-color: #003d7a;
+                    }
+                }
+            }
+        }
+
+        .img-tec {
+            flex: 1; // Ocupa o mesmo espaço que o conteúdo
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 400px; // Altura mínima para o background aparecer
+            margin-top: 8rem;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 2rem;
+            margin-right: 7rem;
+            border-radius: 8px;
+            background: linear-gradient(135deg, #0052a5 0%, #4a86e8 100%);
+
+
+            .fas.fa-laptop-code {
+                font-size: 4rem;
+                color: #ffffff;
+                margin-bottom: 1.5rem;
+            }
+
+            h3 {
+                color: #ffffff;
+                font-size: 1.5rem;
+                text-align: center;
+            }
         }
     }
 }
