@@ -12,8 +12,7 @@ export default function Inicio() {
 
 
                 <div className="icone-logo">
-                    <i className="fas fa-bolt"></i>
-                    <h3 href="#" ><span className="Cor-title">Gov</span>Tec</h3>
+                    <img src="./public/image/logo.png" height={"130px"}  />
                 </div>
 
 
@@ -29,7 +28,7 @@ export default function Inicio() {
             </div>
 
 
-            <div class="empresa-content">
+            <div id="empresa" class="empresa-content">
 
                 <h1 className="title">GovPulse: Inovação Digital para o Setor Público</h1>
                 <p className="textos-p">Somos uma equipe especializada no desenvolvimento de soluções digitais para o governo. Combinamos expertise técnica com compreensão das necessidades do serviço público para criar plataformas que transformam a relação entre cidadãos e governo.</p>
@@ -106,6 +105,60 @@ export default function Inicio() {
                  </div>
 
        <div className="servicos-container">
+
+            <section id="servicos" class="servicos">
+
+                <div class="container">
+                
+                    <div class="section-title">
+                
+                        <h1>Nossos Serviços</h1>
+                        <p>Oferecemos soluções completas para modernização digital do setor público</p>
+                
+                    </div>
+                
+                    <div class="servicos-grid">
+                
+                        <div class="servico-card">
+                
+                            <div class="servico-icon">
+                
+                                <i class="fas fa-globe"></i>
+                
+                            </div>
+                
+                            <h3>Portais Governamentais</h3>
+                            <p>Desenvolvimento de portais institucionais modernos, responsivos e acessíveis para órgãos públicos</p>
+                
+                        </div>
+                
+                        <div class="servico-card">
+                
+                            <div class="servico-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                
+                            <h3>Aplicativos Móveis</h3>
+                            <p>Criação de aplicativos nativos e híbridos para iOS e Android, focados em serviços ao cidadão</p>
+                
+                        </div>
+                
+                        <div class="servico-card">
+                
+                            <div class="servico-icon">
+                                <i class="fas fa-database"></i>
+                
+                            </div>
+                            <h3>Sistemas de Gestão</h3>
+                            <p>Desenvolvimento de sistemas personalizados para gestão de processos internos e atendimento ao público</p>
+                
+                        </div>
+                
+                    </div>
+                
+                
+                </div>
+            </section>
 
                
         </div>

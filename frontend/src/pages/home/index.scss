@@ -12,18 +12,22 @@
 .container-home {
     .container-navegacao {
         display: flex;
+        background-color: #fff;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         gap: 50px;
         height: 80px;
+        position: fixed;
+        z-index: 1000;
+        width: 100%;
     }
 
     .icone-logo {
         display: flex;
-        flex-direction: row;
         justify-content: center;
         align-items: center;
+        margin-right: 7rem;
 
         .Cor-title {
             color: #0052a5;
@@ -90,12 +94,15 @@
         background: linear-gradient(100deg, #003d7a 20%, #0d4db4 90%);
         height: 60rem;
         color: #fff;
+        padding-top: 4rem;
+
 
         .title {
             display: flex;
             justify-content: center;
             padding-top: 5rem;
             font-size: 3rem;
+            
         }
 
         .textos-p {
@@ -115,6 +122,7 @@
             margin-left: 10rem;
             margin-right: 10rem;
             gap: 2rem;
+            
 
             .destaque-item {
                 display: flex;
@@ -175,6 +183,7 @@
             flex: 1; // Ocupa o espaço disponível
             display: flex;
             flex-direction: column;
+            margin-top: 7rem;
 
             h1 {
                 color: #1a365d;
@@ -208,7 +217,7 @@
                 flex-direction: column;
                 margin-left: 7rem;
                 margin-top: 4rem;
-                margin-right: 5rem; // Espaço entre o texto e a imagem
+                margin-right: 5rem; 
 
                 p {
                     line-height: 2rem;
@@ -252,7 +261,7 @@
             align-items: center;
             justify-content: center;
             min-height: 400px;
-            margin-top: 8rem;
+            margin-top: 22rem;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -275,5 +284,94 @@
                 text-align: center;
             }
         }
+    }
+
+    .servicos-container{
+
+        
+        .servicos {
+
+            
+            .container{
+    
+                .section-title{
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-top: 12rem;
+                    
+                    h1{
+                        color: #1a365d;
+                    }
+
+                    p{
+                        margin-top: 1rem;
+                        color: #3f4041;
+                    }
+                }
+            }
+        }
+        
+        .servicos-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            margin-top: 5rem;
+            gap: 2rem;
+            margin-left: 5rem;
+            margin-right: 5rem;
+        }
+        
+        .servico-card {
+            display: flex;
+            flex-direction:column ;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--white);
+            padding: 40px 30px;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            text-align: center;
+            transition: transform 0.3s ease;
+            border-top: 4px solid #0052a5;
+
+            p{
+                margin-top: 1.5rem;
+                color: #718096;
+                
+            }
+
+            h3{
+                color:#1a365d ;
+            }
+        }
+        
+        .servico-card:hover {
+            transform: translateY(-10px);
+
+
+        }
+        
+        .servico-icon {
+            width: 80px;
+            height: 80px;
+            background-color: rgba(0, 82, 165, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 25px;
+        }
+        
+        .servico-icon i {
+            font-size: 36px;
+            color: #0052a5;
+        }
+        
+        .servico-card h3 {
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+        
     }
 }
