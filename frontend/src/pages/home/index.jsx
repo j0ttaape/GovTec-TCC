@@ -12,7 +12,7 @@ export default function Inicio() {
 
 
                 <div className="icone-logo">
-                    <img src="./public/image/logo.png" height={"130px"}  />
+                    <img src="./public/image/logo.png" height={"130px"} />
                 </div>
 
 
@@ -68,28 +68,28 @@ export default function Inicio() {
 
                     <div className="title-equipe">
 
-                    <h1 id="sobre">Sobre Nossa Equipe</h1>
+                        <h1 id="sobre">Sobre Nossa Equipe</h1>
 
                     </div>
 
                     <div className="texto-sobre">
-                        
-                    <p>A GovTec nasceu da união de profissionais com vasta experiência tanto no setor público quanto em desenvolvimento de software. Nossa missão é modernizar a interação entre governo e cidadãos através de soluções digitais eficientes, seguras e acessíveis.
 
-                        Com mais de 8 anos de experiência no desenvolvimento de sistemas para órgãos governamentais, entendemos as particularidades e desafios do setor público. Nossa equipe multidisciplinar inclui desenvolvedores, designers UX/UI, especialistas em segurança da informação e consultores com experiência em administração pública.</p>
+                        <p>A GovTec nasceu da união de profissionais com vasta experiência tanto no setor público quanto em desenvolvimento de software. Nossa missão é modernizar a interação entre governo e cidadãos através de soluções digitais eficientes, seguras e acessíveis.
+
+                            Com mais de 8 anos de experiência no desenvolvimento de sistemas para órgãos governamentais, entendemos as particularidades e desafios do setor público. Nossa equipe multidisciplinar inclui desenvolvedores, designers UX/UI, especialistas em segurança da informação e consultores com experiência em administração pública.</p>
 
 
-                    <h4>Nossa Abordagem:</h4>
-                            <ul>
-                                <li>Desenvolvimento ágil e iterativo</li>
-                                <li>Foco na experiência do usuário</li>
-                                <li>Conformidade com legislação e padrões governamentais</li>
-                                <li>Segurança e proteção de dados como prioridade</li>
-                                <li>Suporte contínuo e manutenção proativa</li>
-                                <li>Documentação completa e transparente</li>
-                            </ul>
+                        <h4>Nossa Abordagem:</h4>
+                        <ul>
+                            <li>Desenvolvimento ágil e iterativo</li>
+                            <li>Foco na experiência do usuário</li>
+                            <li>Conformidade com legislação e padrões governamentais</li>
+                            <li>Segurança e proteção de dados como prioridade</li>
+                            <li>Suporte contínuo e manutenção proativa</li>
+                            <li>Documentação completa e transparente</li>
+                        </ul>
 
-                    <a href="#">ENTRE EM CONTATO</a>
+                        <a href="#">ENTRE EM CONTATO</a>
 
                     </div>
                 </div>
@@ -102,100 +102,82 @@ export default function Inicio() {
                     <h3>Tecnologia com Propósito Público</h3>
 
                 </div>
-                 </div>
+            </div>
 
-       <div className="servicos-container">
+            <div className="servicos-container">
 
-            <section id="servicos" class="servicos">
+                <section id="servicos" class="servicos">
 
-                <div class="container">
-                
-                    <div class="section-title">
-                
-                        <h1>Nossos Serviços</h1>
-                        <p>Oferecemos soluções completas para modernização digital do setor público</p>
-                
+                    <div class="container">
+
+                        <div class="section-title">
+
+                            <h1>Nossos Serviços</h1>
+                            <p>Oferecemos soluções completas para modernização digital do setor público</p>
+
+                        </div>
+
+                        <div class="servicos-grid">
+
+                            <div class="servico-card">
+
+                                <div class="servico-icon">
+
+                                    <i class="fas fa-globe"></i>
+
+                                </div>
+
+                                <h3>Portais Governamentais</h3>
+                                <p>Desenvolvimento de portais institucionais modernos, responsivos e acessíveis para órgãos públicos</p>
+
+                            </div>
+
+                            <div class="servico-card">
+
+                                <div class="servico-icon">
+                                    <i class="fas fa-mobile-alt"></i>
+                                </div>
+
+                                <h3>Aplicativos Móveis</h3>
+                                <p>Criação de aplicativos nativos e híbridos para iOS e Android, focados em serviços ao cidadão</p>
+
+                            </div>
+
+                            <div class="servico-card">
+
+                                <div class="servico-icon">
+                                    <i class="fas fa-database"></i>
+
+                                </div>
+                                <h3>Sistemas de Gestão</h3>
+                                <p>Desenvolvimento de sistemas personalizados para gestão de processos internos e atendimento ao público</p>
+
+                            </div>
+
+                        </div>
+
+
                     </div>
-                
-                    <div class="servicos-grid">
-                
-                        <div class="servico-card">
-                
-                            <div class="servico-icon">
-                
-                                <i class="fas fa-globe"></i>
-                
-                            </div>
-                
-                            <h3>Portais Governamentais</h3>
-                            <p>Desenvolvimento de portais institucionais modernos, responsivos e acessíveis para órgãos públicos</p>
-                
-                        </div>
-                
-                        <div class="servico-card">
-                
-                            <div class="servico-icon">
-                                <i class="fas fa-mobile-alt"></i>
-                            </div>
-                
-                            <h3>Aplicativos Móveis</h3>
-                            <p>Criação de aplicativos nativos e híbridos para iOS e Android, focados em serviços ao cidadão</p>
-                
-                        </div>
-                
-                        <div class="servico-card">
-                
-                            <div class="servico-icon">
-                                <i class="fas fa-database"></i>
-                
-                            </div>
-                            <h3>Sistemas de Gestão</h3>
-                            <p>Desenvolvimento de sistemas personalizados para gestão de processos internos e atendimento ao público</p>
-                
-                        </div>
-                
-                    </div>
-                
-                
-                </div>
-            </section>
+                </section>
 
-               
-        </div>
 
-        <section id="projetos" className="container-projetos">
+            </div>
+
+            <section id="projetos" className="container-projetos">
 
                 <div class="section-title">
-            
+
                     <h1>Nossos Projetos</h1>
                     <p>Conheça alguns dos projetos que desenvolvemos para o setor público</p>
-            
-                </div>
-
-                <div className="cards-container">
-
-                    <div className="cards">
-                        
-                        <img src="./public/image/logo.png" height={"120px"} />
-
-                        <h3>DoeVida - Plataforma de Doação de Sangue</h3>
-
-                        <p>Sistema completo para gestão de doadores de sangue, agendamento de doações e comunicação com hemocentros. Aumentou em 40% o número de doadores regulares.</p>
-                    </div>
-
-                    <div className="cards">
-                        
-                        <img src="./public/image/logo.png" height={"120px"} />
-
-                        <h3>EcoCidade - Gestão Ambiental Municipal</h3>
-
-                        <p>Plataforma para monitoramento ambiental, denúncias de crimes ambientais e educação ecológica. Integrado com órgãos fiscalizadores.</p>
-                    </div>
 
                 </div>
 
-        </section>
-        
+
+
+            </section>
+
+
+
 
 
         </section>
