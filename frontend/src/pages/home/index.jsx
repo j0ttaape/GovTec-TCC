@@ -235,9 +235,15 @@ export default function Inicio() {
                     </div>
                 </section>
 
+
+
             </section>
 
 
+                <section className="container-contato">
+
+<h1>COntato</h1>
+                </section>
 
 
 

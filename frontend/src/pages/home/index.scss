@@ -403,14 +403,19 @@
             justify-content: center;
             flex-direction: row;
             gap: 35px;
-            
+
+        .cards:hover {
+            transform: translateY(-10px);
+            transition: 2s;
+
+        }
+
 
             .container-cards {
 
                 display: flex;
                 flex-direction: column;
                 width: 500px;
-                height: 200px;
                 margin-top: 4rem;
 
 
@@ -418,8 +423,14 @@
 
 
                 .cards-bloco {
+                    border: 1px solid #ddd;
+                    border-radius: 8px;
+                    transition: transform 0.3s ease;
 
-                    border: 5px #0000;
+                    &:hover {
+                        transform: translateY(-10px);
+                    }
+
 
                     .cards-icon {
                         background: linear-gradient(130deg, #003d7a 10%, #165ac9 90%);
@@ -467,7 +478,8 @@
                             margin-top: 1.3rem;
                             background-color: #e2e8f0;
                             border-radius: 8px;
-                            padding: 8px;
+                            padding: 10px;
+                            margin-bottom: 2rem;
 
                         }
                     }
@@ -478,5 +490,17 @@
         }
 
 
+    }
+
+
+    .container-contato {
+        margin-top: 12rem;
+        padding: 2rem;
+        background-color: #f7f7f7;
+        text-align: center;
+
+        h1 {
+            color: #1a365d;
+        }
     }
 }
