@@ -104,9 +104,9 @@ export default function Inicio() {
                 </div>
             </div>
 
-            <div className="servicos-container">
+            <div id="servicos" className="servicos-container">
 
-                <section id="servicos" class="servicos">
+                <section  class="servicos">
 
                     <div class="container">
 
