@@ -374,4 +374,47 @@
         }
         
     }
+
+
+    .container-projetos{
+
+
+
+            .section-title{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 12rem;
+        
+        h1{
+            color: #1a365d;
+        }
+
+        p{
+            margin-top: 1rem;
+            color: #3f4041;
+        }
+    }
+
+    .cards-container{
+
+        display: flex;
+
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+
+        .cards{
+            background-color: #4a86e8 ;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+
+        }
+    }
+
+
+    }
 }

@@ -162,6 +162,39 @@ export default function Inicio() {
 
                
         </div>
+
+        <section id="projetos" className="container-projetos">
+
+                <div class="section-title">
+            
+                    <h1>Nossos Projetos</h1>
+                    <p>Conheça alguns dos projetos que desenvolvemos para o setor público</p>
+            
+                </div>
+
+                <div className="cards-container">
+
+                    <div className="cards">
+                        
+                        <img src="./public/image/logo.png" height={"120px"} />
+
+                        <h3>DoeVida - Plataforma de Doação de Sangue</h3>
+
+                        <p>Sistema completo para gestão de doadores de sangue, agendamento de doações e comunicação com hemocentros. Aumentou em 40% o número de doadores regulares.</p>
+                    </div>
+
+                    <div className="cards">
+                        
+                        <img src="./public/image/logo.png" height={"120px"} />
+
+                        <h3>EcoCidade - Gestão Ambiental Municipal</h3>
+
+                        <p>Plataforma para monitoramento ambiental, denúncias de crimes ambientais e educação ecológica. Integrado com órgãos fiscalizadores.</p>
+                    </div>
+
+                </div>
+
+        </section>
         
 
 
