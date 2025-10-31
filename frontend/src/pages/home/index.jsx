@@ -173,6 +173,67 @@ export default function Inicio() {
                 </div>
 
 
+                <section className="cards">
+
+                    <div className="container-cards">
+
+
+                        <div className="cards-bloco">
+
+                            <div className="cards-icon">
+
+                                <i class="fas fa-graduation-cap"></i>
+
+
+                            </div>
+
+                            <div className="cards-text">
+                                <h3>DoeVida - Plataforma de Doação de Sangue</h3>
+                                <p>Sistema completo para gestão de doadores de sangue, agendamento de doações e comunicação com hemocentros. Aumentou em 40% o número de doadores regulares.</p>
+
+
+                            </div>
+
+                            <div className="tags-container">
+                                <span class="tags">React</span>
+                                <span class="tags">Node.js</span>
+                                <span class="tags">Mysql</span>
+                                <span class="tags">API REST</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div className="container-cards">
+
+                        <div className="cards-bloco">
+
+                            <div className="cards-icon">
+
+                                <i class="fas fa-graduation-cap"></i>
+
+
+                            </div>
+
+                            <div className="cards-text">
+                                <h3>DoeVida - Plataforma de Doação de Sangue</h3>
+                                <p>Sistema completo para gestão de doadores de sangue, agendamento de doações e comunicação com hemocentros. Aumentou em 40% o número de doadores regulares.</p>
+
+
+                            </div>
+
+                            <div className="tags-container">
+                                <span class="tags">React</span>
+                                <span class="tags">Node.js</span>
+                                <span class="tags">Mysql</span>
+                                <span class="tags">API REST</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </section>
 
             </section>
 
