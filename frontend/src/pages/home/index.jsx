@@ -298,6 +298,47 @@ export default function Inicio() {
         </div>
     </section>
 
+    <footer>
+        <div className="container">
+            <div className="footer-content">
+                <div className="footer-column">
+                    <h3>GovPulse</h3>
+                    <p>Especialistas em desenvolvimento de soluções digitais para o setor público. Transformamos serviços governamentais através da tecnologia.</p>
+                    <div className="social-links">
+                        <a href="#"><i className="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i className="fab fa-twitter"></i></a>
+                        <a href="#"><i className="fab fa-github"></i></a>
+                        <a href="#"><i className="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div className="footer-column">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#empresa">Nossa Equipe</a></li>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div className="footer-column">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li><i className="fas fa-envelope"></i> contato@govpulse.digital</li>
+                        <li><i className="fas fa-phone"></i> (61) 3456-7890</li>
+                        <li><i className="fas fa-map-marker-alt"></i> Brasília - DF, Brasil</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div className="copyright">
+                <p>&copy; 2023 GovPulse - Todos os direitos reservados | Desenvolvendo o futuro do serviço público</p>
+            </div>
+        </div>
+    </footer>
+
 
 
         </section>
