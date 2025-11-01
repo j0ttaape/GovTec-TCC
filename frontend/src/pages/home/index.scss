@@ -176,11 +176,11 @@
         display: flex;
         flex-direction: row;
         margin-top: 4rem;
-        align-items: flex-start; 
+        align-items: flex-start;
 
         .container-equipe-conteudo {
             height: 60rem;
-            flex: 1; 
+            flex: 1;
             display: flex;
             flex-direction: column;
             margin-top: 7rem;
@@ -403,11 +403,11 @@
             flex-direction: row;
             gap: 35px;
 
-        .cards:hover {
-            transform: translateY(-10px);
-            transition: 2s;
+            .cards:hover {
+                transform: translateY(-10px);
+                transition: 2s;
 
-        }
+            }
 
 
             .container-cards {
@@ -463,7 +463,8 @@
 
                         p {
                             text-align: justify;
-                            padding: 10px;
+                            margin-left: 4rem;
+                            margin-right: 4rem;
                         }
                     }
 
@@ -492,14 +493,121 @@
     }
 
 
-    .container-contato {
-        margin-top: 12rem;
-        padding: 2rem;
-        background-color: #f7f7f7;
-        text-align: center;
+    .contato {
+        background-color: #ffffff;
+        padding: 100px 0;
+    }
 
-        h1 {
-            color: #1a365d;
+    .contato {
+
+        
+        .section-title {
+
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            h1 {
+                color: #1a365d;
+            }
+            
+        }
+    .contato-form {
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: #f8f9fa;
+        padding: 50px;
+        border-radius: 8px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    }
+
+    .form-group {
+        margin-bottom: 25px;
+    }
+
+    .form-group label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: 600;
+        color: #1a365d;
+    }
+    
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+        width: 100%;
+        padding: 15px;
+        border: 1px solid #e2e8f0;
+        border-radius: 4px;
+        font-size: 16px;
+        transition: all 0.3s ease;
+    }
+    
+    .form-group input:focus,
+    .form-group textarea:focus,
+    .form-group select:focus {
+        border-color: #0052a5;
+        box-shadow: 0 0 0 3px rgba(0, 82, 165, 0.1);
+        outline: none;
+    }
+
+    .form-group textarea {
+        height: 150px;
+        resize: vertical;
+    }
+
+    .form-row {
+        display: flex;
+        gap: 20px;
+    }
+    
+    .form-row .form-group {
+        flex: 1;
+    }
+    
+    .btn {
+        display: inline-block;
+        padding: 14px 32px;
+        background-color: #0052a5;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 4px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+    
+    .btn:hover {
+        background-color: #003d7a;
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(0, 82, 165, 0.3);
+    }
+    
+    .btn-large {
+        padding: 16px 40px;
+        font-size: 18px;
+    }
+    
+    /* Responsividade */
+    @media (max-width: 992px) {
+        .form-row {
+            flex-direction: column;
+        }
+        
+        .form-row .form-group {
+            flex: none;
         }
     }
+    
+    @media (max-width: 576px) {
+        .contato-form {
+            padding: 30px 20px;
+        }
+    }
+}
 }

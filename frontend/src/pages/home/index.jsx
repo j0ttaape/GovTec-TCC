@@ -106,7 +106,7 @@ export default function Inicio() {
 
             <div id="servicos" className="servicos-container">
 
-                <section  class="servicos">
+                <section class="servicos">
 
                     <div class="container">
 
@@ -240,10 +240,63 @@ export default function Inicio() {
             </section>
 
 
-                <section className="container-contato">
+<section id="contato" className="contato">
+        <div className="container">
+            <div className="section-title">
+                <h1>Entre em Contato</h1>
+                <p>Vamos conversar sobre como podemos modernizar os serviços do seu órgão</p>
+            </div>
 
-<h1>COntato</h1>
-                </section>
+            <form className="contato-form" onSubmit={(e) => { e.preventDefault(); alert('Obrigado pelo seu interesse! Entraremos em contato em breve para discutir seu projeto.'); e.target.reset(); }}>
+                <div className="form-row">
+                    <div className="form-group">
+                        <label htmlFor="nome">Nome Completo</label>
+                        <input type="text" id="nome" name="nome" required />
+                    </div>
+
+                    <div className="form-group">
+                        <label htmlFor="cargo">Cargo</label>
+                        <input type="text" id="cargo" name="cargo" required />
+                    </div>
+                </div>
+
+                <div className="form-row">
+                    <div className="form-group">
+                        <label htmlFor="orgao">Órgão/Instituição</label>
+                        <input type="text" id="orgao" name="orgao" required />
+                    </div>
+
+                    <div className="form-group">
+                        <label htmlFor="telefone">Telefone</label>
+                        <input type="tel" id="telefone" name="telefone" required />
+                    </div>
+                </div>
+
+                <div className="form-group">
+                    <label htmlFor="email">E-mail</label>
+                    <input type="email" id="email" name="email" required />
+                </div>
+
+                <div className="form-group">
+                    <label htmlFor="projeto">Tipo de Projeto</label>
+                    <select id="projeto" name="projeto">
+                        <option value="">Selecione o tipo de projeto</option>
+                        <option value="portal">Portal Governamental</option>
+                        <option value="sistema">Sistema de Gestão</option>
+                        <option value="app">Aplicativo Móvel</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+
+                <div className="form-group">
+                    <label htmlFor="mensagem">Descreva sua necessidade</label>
+                    <textarea id="mensagem" name="mensagem" placeholder="Descreva brevemente o projeto ou problema que gostaria de resolver..." required></textarea>
+                </div>
+
+                <button type="submit" className="btn btn-large">Enviar Proposta</button>
+            </form>
+        </div>
+    </section>
 
 
 
